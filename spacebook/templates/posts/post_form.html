@@ -1,0 +1,14 @@
+{% extends "posts/post_base.html" %}
+{% load bootstrap4 %}
+{% block post_cont %}
+  <div class="container">
+    <h3 class="display-4 text-center">New Post</h3>
+    <p class="col-md-10 title2 text-right">Share your views with us.</p>
+    <form class="form thumbs" action="{% url 'posts:create' %}" method="post">
+      {% csrf_token %}
+      {% bootstrap_form form %}
+      <input type="submit" class="btn btn-outline-light btn-lg mr-2"value="Post">
+      <input type="reset" value="Cancel" class="btn btn-outline-warning btn-lg ml-auto">
+    </form>
+  </div>
+{% endblock %}

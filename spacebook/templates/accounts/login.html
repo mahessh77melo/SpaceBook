@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load bootstrap4 %}
+{% block content %}
+
+<div class="container">
+  <h1 class="display-3 text-center">Log In</h1><br><br><hr>
+  <form method="POST" class="form thumbs">
+    {% csrf_token %}
+    {% bootstrap_form form %}
+    <hr>
+    <input type="submit" class="btn btn-outline-primary btn-large" value="Login">
+    <input type="reset" class="btn btn-outline-danger btn-large" value="Cancel">
+  </form>
+</div>
+<hr>
+
+{% endblock %}

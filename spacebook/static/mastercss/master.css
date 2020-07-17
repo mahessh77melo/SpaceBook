@@ -1,0 +1,105 @@
+/* font-family: 'Aladin', cursive;
+font-family: 'Alata', sans-serif; */
+#mynav{
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+#delete35{
+  border-radius: 2px;
+}
+.my_con{
+  font-family: 'Alata', sans-serif;
+}
+::selection{
+  background: #231942;
+}
+#logo{
+  font-size: 1.4em;
+}
+.title1{
+  text-align: left;
+}
+.title2{
+  text-align: right;
+  color:#ffdab9;
+}
+.thumbs{
+  transition: 1s;
+  background-color: rgba(34, 34, 59, 0.55);
+  margin: auto;
+  width:700px;
+  padding: 45px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-radius: 20px;
+  border: 2px solid gray;
+  box-shadow:  0 4px 30px 0 rgba(0, 0, 0, 0.6), 0 6px 10px 0 #ffbe0b;
+}
+.thumbs:hover{
+  transition: 1s;
+  transform: scale(1.08);
+  box-shadow:  0 4px 30px 0 rgba(0, 0, 0, 0.6), 0 6px 30px 0 #ffbe0b;
+}
+.postcard{
+  transition: 0.5s;
+  background-color: rgba(55, 6, 23, 0.5);
+  padding: 15px;
+  width: auto;
+  height: auto;
+  border-radius: 20px;
+  border: 2px solid gray;
+  box-shadow:  0 4px 30px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 #ffbe0b;
+  margin-top: 25px;
+}
+.postcard:hover{
+  transform: scale(1.1);
+  box-shadow:  0 8px 40px 0 rgba(0, 0, 0, 0.2), 0 9px 45px 0 #ffbe0b;
+}
+.navbar-brand{
+  border-radius: 5px;
+  padding : 5px;
+}
+a{
+  text-decoration: none;
+  transition:0.5s;
+  color : #faa307;
+  padding: 8px;
+}
+hr{
+  height: 5px;
+  color : white;
+}
+.nav-item:hover{
+  background-color: #ffd166;
+  border-radius: 7px;
+}
+#index-info{
+  margin: auto;
+  width:700px;
+  padding: 45px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+/* ############################################################## */
+a:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+a:nth-child(1){
+    filter: hue-rotate(270deg);
+}
+a:nth-child(2){
+    filter: hue-rotate(110deg);
+}
+a:nth-child(3){
+  filter:hue-rotate(180deg);
+}
+a:nth-child(5){
+  filter:hue-rotate(180deg);
+}
